@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+  
+  /* navigation styles start here */
+  
+.spacer {
+    height: 2vw;
+    background-color: transparent;
+}
+  
+.front-header {
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    font-weight: 700;
+    animation: fadeIn 2.5s ease-in;
+}
+
+.enter-btn {
+  grid-column: 4/5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10vw;
+  
+}
+
+.btn-wrapper {
+  padding: 0.3vw 1vw;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.btn-wrapper:hover {
+  background-color: #2D6294;
+  color: white !important;
+  transition: ease-in-out 500ms;
+}
+
+
+
+.enter-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  color: #2D6294;
+  font-weight: 700;
+}
+
+.enter-link:hover {
+  color: white !important;
+  transition: ease-in-out 500ms;
+}
+
+.enter-icon {
+  margin: 0;
+  width: 2vw;
+  margin-left: 0.5vw;
+  margin-top: 0.25vw;
+  margin-bottom: 0.25;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+@media screen and (max-width: 1030px) {
+
+  .enter-btn {
+    margin-right: 4vw;
+  }
+  
+  .enter-link{
+    font-size: 4vw;
+  }
+
+  .enter-icon {
+    width: 4vw;
+  }
+
+}
+  
+@media screen and (max-width: 450px) {
+  
+  .enter-btn {
+    margin-top: 3vw;
+    margin-right: 3vw;
+  }
+  
+  .enter-link{
+    font-size: 6vw;
+  }
+
+  .enter-icon {
+    width: 6vw;
+  }
+}

@@ -1,0 +1,123 @@
+.page {
+    max-width: 1000px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2D6294;
+}
+  
+.page h1 {
+    font-family: Cormorant Garamond;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+  
+.people-break {
+    max-width: 90%;
+    height: 3px;
+    background-color: #A9A9A9;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cormorant Garamond;
+  
+}
+  
+.middle-profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: Cormorant Garamond;
+}
+  
+  
+.profile-picture {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+  
+.profile-picture img {
+    max-width: 200px;
+    margin: 0;
+  
+}
+  
+.profile-blurb {
+    max-width: 700px;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    font-weight: 600;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+  
+.key-name {
+    font-size: 32px !important;
+}
+  
+.name {
+    font-weight: 700;
+    font-size: 24px
+}
+  
+.desktop-name {
+    font-weight: 700;
+    font-size: 24px
+}
+  
+.mobile-name {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .mobile-name {
+      font-size: 24px;
+    }
+  
+    .profile {
+      display: block;
+    }
+  
+    .middle-profile {
+      display: block;
+    }
+  
+    .desktop-name {
+      display: none;
+    }
+  
+    .mobile-name {
+      display: block;
+    }
+  
+    .profile-picture {
+      padding: none;
+    }
+  
+    .profile-blurb {
+      padding: 20px 0 0 0;
+      text-align: justify;
+      font-size: 17px;
+  
+    }
+  
+    .page h1 {
+      font-size: 12vw;
+    }
+  
+}

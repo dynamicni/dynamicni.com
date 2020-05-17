@@ -1,0 +1,162 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 9vw;
+    height: 3.5vw;
+    right: 36px;
+    top: 36px;
+    background-color: #dcdcdc;
+    
+    border-radius: 5%;  
+}
+
+.bm-burger-button h1 {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.menu-btn:hover {
+    color: #dcdcdc !important;
+}
+
+.bm-burger-button:hover {
+    color: #dcdcdc !important;
+    transition: ease-in-out 300ms;
+    background-color: #c0c0c0;
+    
+}
+   
+  /* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #2D6294;
+}
+   
+  /* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #dcdcdc;
+    transition: ease-in-out 300ms;
+    
+}
+   
+  /* Position and sizing of clickable cross button */
+.bm-cross-button {
+    width: 2vw;
+}
+   
+  /* Color/shape of close button cross */
+.bm-cross {
+    background: white;
+    width: 100%;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+    width: 25vw !important;
+    
+}
+   
+  /* General sidebar styles */
+.bm-menu {
+    background: #dcdcdc;
+    padding: 2.5em 0 0;
+    font-size: 1.15em;
+    padding-left: 0 !important;
+}
+   
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #dcdcdc;
+}
+   
+  /* Wrapper for item list */
+.bm-item-list {
+    color: red;
+    padding: 0;
+}
+   
+  /* Individual item */
+.bm-item {
+    display: inline-block;
+}
+   
+  /* Styling of overlay */
+.bm-overlay {
+    background: transparent;
+    opacity: 0;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #2D6294;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 24px;
+    border-top: 2px solid#c0c0c0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    
+
+}
+
+.nav-links:hover {
+    color: white;
+    text-shadow: 0 0 10 black;
+    transition: ease-in-out 300ms;
+    background-color: #c0c0c0;
+}
+
+.btn-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2D6294;
+}
+
+.btn-holder span {
+    font-weight: 700;
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.1vw;
+}
+
+
+@media screen and (max-width: 450px) {
+    .bm-menu-wrap {
+        width: 45% !important;
+        
+    }
+
+    .nav-links {
+        font-size: 6vw;
+    }
+
+    .bm-menu {
+        padding-left: 10px;
+    }
+
+    .bm-burger-button {
+        width: 24vw;
+        height: 9vw;
+
+    }
+
+    .btn-holder span {
+        font-size: 7.5vw;
+    }
+
+}

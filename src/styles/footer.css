@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+footer {
+    background-color: white;
+
+}
+
+footer h1 {
+    text-align: center;
+    font-family: 'Cormorant Garamond' !important;
+    color: #2D6294;
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 600px) {
+    
+    footer h1{
+        font-size: 6vw;
+    }
+    
+
+}
